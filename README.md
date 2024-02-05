@@ -13,10 +13,13 @@ A simple cache for a few of the JS Error constructors.
 
 ```js
 const assert = require('assert');
+
+const Base = require('es-errors');
 const Range = require('es-errors/range');
 const Syntax = require('es-errors/syntax');
 const Type = require('es-errors/type');
 
+assert.equal(Base, Error);
 assert.equal(Range, RangeError);
 assert.equal(Syntax, SyntaxError);
 assert.equal(Type, TypeError);

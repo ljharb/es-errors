@@ -4,6 +4,7 @@
 	"description": "A simple cache for a few of the JS Error constructors.",
 	"main": "index.js",
 	"exports": {
+		".": "./index.js",
 		"./range": "./range.js",
 		"./syntax": "./syntax.js",
 		"./type": "./type.js",
