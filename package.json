@@ -5,10 +5,12 @@
 	"main": "index.js",
 	"exports": {
 		".": "./index.js",
+		"./eval": "./eval.js",
 		"./range": "./range.js",
 		"./ref": "./ref.js",
 		"./syntax": "./syntax.js",
 		"./type": "./type.js",
+		"./uri": "./uri.js",
 		"./package.json": "./package.json"
 	},
 	"sideEffects": false,
