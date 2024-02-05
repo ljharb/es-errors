@@ -6,6 +6,7 @@
 	"exports": {
 		".": "./index.js",
 		"./range": "./range.js",
+		"./ref": "./ref.js",
 		"./syntax": "./syntax.js",
 		"./type": "./type.js",
 		"./package.json": "./package.json"
